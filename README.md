@@ -1,19 +1,54 @@
-## Para iniciar el proyecto los siguientes comandos:
+# Frontend Mentor - Dine Website Challenge solution
 
-Para reconstruir los módulos de node deben de ejecutar este comando
+This is a solution to the [Dine Website Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/dine-restaurant-website-yAt7Vvxt7)
 
-```
-npm install
-```
 
-Y para crear nuevamente el DIST
+## Table of contents
 
-```
-npm run build
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-Para inicar el server de desarrollo
+## Overview
 
-```
-npm start
-```
+### The challenge
+
+- Use SASS.
+
+- Use WEBPACK.
+
+- Write your code in multiple files, so that you can use import and export.
+
+- Implement tabbed browsing.
+
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- SASS
+- WEBPACK
+- JS
+
+### What I learned
+
+I used this proyect to learn how to use SASS and WEBPACK.
+
+## Author
+
+- Github repository - [Gian-P](https://github.com/Gian-P)
+
+
+## Github pages
+
+
+
