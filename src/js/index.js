@@ -7,7 +7,6 @@ import "../scss/components/third-section.scss";
 import "../scss/components/fourth-section.scss";
 import "../scss/components/fifth-section.scss";
 import "../scss/components/sixth-section.scss";
-import "../scss/media-queries/first-section-MQ.scss";
 import {PAGE} from './LoadPage';
 import {Family_Gathering} from './Family-Gathering';
 import {Special_Events} from './Special-Events';

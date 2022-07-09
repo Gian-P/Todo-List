@@ -3,7 +3,7 @@
 .section3{
   @include sectionProperties("section3");
   .locally-sourced-mobile{
-    background-image: url("/src/assets/images/homepage/locally-sourced-mobile.jpg");
+    background-image: url("https://i.imgur.com/fzfFMVT.jpg");
     @include imgProperties;
   }
   .section-3-div{

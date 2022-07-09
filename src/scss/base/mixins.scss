@@ -62,7 +62,7 @@
 @mixin Section4Styles($val,$val2,$val3,$val4,$val5){
   margin-top: #{$val};
   img{
-    background-image: url("/src/assets/images/homepage/#{$val2}");
+    background-image: url("#{$val2}");
     min-height: 24.5rem;
   }
 
