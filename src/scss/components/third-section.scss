@@ -1,0 +1,14 @@
+@import "/src/scss/base/mixins.scss";
+
+.section3{
+  @include sectionProperties("section3");
+  .locally-sourced-mobile{
+    background-image: url("/src/assets/images/homepage/locally-sourced-mobile.jpg");
+    @include imgProperties;
+  }
+  .section-3-div{
+    margin-top: 4.8rem;
+    @include iconStyles("3");
+    @include Section-P-H2-styles("3");
+  }
+}

@@ -1,0 +1,36 @@
+$breakpoints: ( tablet: 768px, 
+                desktop: 1440px) !default;
+/*
+@include media() {
+
+}*/
+
+@media(min-width: 768px) and (max-width: 1440px){
+  .section1{
+    .hero-bg-mobile{
+      background-image: url("/src/assets/images/homepage/hero-bg-tablet.jpg");
+    }
+  }
+}
+
+/* Compiles to */
+/*
+@media (min-width: 640px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+
+}*/
+
+//Mobile - Home dimensions -> 375 / 5734
+
+//Mobile - Booking -> 375 / 1574
+
+// Tablet - Home -> 768 / 4994
+
+// Tablet - Booking -> 768 / 1363
+
+// Desktop - Home -> 1440 / 4392
+
+// Desktop - Booking -> 1440 / 1159
