@@ -1,0 +1,18 @@
+@import "./base/root";
+@import "./base/reset";
+@import "./base/global";
+@import "./components/animation";
+/*applied through js*/
+@import "./components/components";
+/*applied through js*/
+@import "./components/details";
+/*applied through js*/
+@import "./components/edit";
+/*applied through js*/
+@import "./components/_form";
+/*not applied through js*/
+@import "./components/_layout";
+/*not applied through js*/
+@import "./components/_navigation";
+/*applied through js*/
+@import "./components/_notes";

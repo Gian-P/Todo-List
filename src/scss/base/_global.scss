@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 12px;
+
+  @media (max-width: 1200px) {
+      font-size: 62.5%; // 1 rem = 10 px (browser default is 16)
+  }
+
+  @media (max-width: 1000px) {
+      font-size: 56.75%; // 1 rem = 9 px (browser default is 16)
+  }
+
+  @media (max-width: 800px) {
+      font-size: 50%; // 1 rem = 8 px (browser default is 16)
+  }
+
+  @media (max-width: 700px) {
+      font-size: 43.75%; // 1 rem = 8 px (browser default is 16)
+  }
+
+  @media (max-width: 400px) {
+    // font-size: 40%; // 1 rem = 7 px (browser default is 16)
+  }
+}
+
+body {
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image:  linear-gradient(to right bottom, 
+                      rgba($blue-dark, .8),
+                      rgba($blue, .9)), 
+                      url("/src/assets/img/wood-bg.jpeg");
+  background-size: cover;
+
+  font-family: lato, sans-serif;
+  font-size: 1.6rem;
+  color: $color-text;
+  word-wrap: break-word;
+}
+
+li {
+  list-style: none;
+}
